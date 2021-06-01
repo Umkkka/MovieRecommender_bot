@@ -1,7 +1,7 @@
 import telebot
 import recommend_system
 
-token = '1675003500:AAEGMnM_DG3Qw0liRGltidp773L81iJxfag'
+token = 'TOKEN'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands = ['start'])
